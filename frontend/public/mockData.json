@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Kalp Şekilli Pırlanta Yüzük",
+    "popularityScore": 90,
+    "weight": 3.5,
+    "images": {
+      "Yellow Gold": "/rings/heart-diamond-yellow-gold.jpg",
+      "White Gold": "/rings/heart-diamond-white-gold.jpg",
+      "Rose Gold": "/rings/heart-diamond-rose-gold.jpg"
+    },
+    "price": 101.00
+  },
+  {
+    "name": "Örgü Desenli Pırlanta Yüzük",
+    "popularityScore": 50,
+    "weight": 4.2,
+    "images": {
+      "Yellow Gold": "/rings/twisted-diamond-yellow-gold.jpg",
+      "White Gold": "/rings/twisted-diamond-white-gold.jpg",
+      "Rose Gold": "/rings/twisted-diamond-rose-gold.jpg"
+    },
+    "price": 101.00
+  },
+  {
+    "name": "Kare Pırlanta Yüzük",
+    "popularityScore": 80,
+    "weight": 3.8,
+    "images": {
+      "Yellow Gold": "/rings/square-diamond-yellow-gold.jpg",
+      "White Gold": "/rings/square-diamond-white-gold.jpg",
+      "Rose Gold": "/rings/square-diamond-rose-gold.jpg"
+    },
+    "price": 101.00
+  },
+  {
+    "name": "Dikdörtgen Pırlanta Yüzük",
+    "popularityScore": 90,
+    "weight": 4.5,
+    "images": {
+      "Yellow Gold": "/rings/rectangle-diamond-yellow-gold.jpg",
+      "White Gold": "/rings/rectangle-diamond-white-gold.jpg",
+      "Rose Gold": "/rings/rectangle-diamond-rose-gold.jpg"
+    },
+    "price": 101.00
+  }
+] 
