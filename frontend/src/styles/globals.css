@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Montserrat fontu artık next/font/google ile yükleniyor */
+
 @font-face {
   font-family: 'Avenir';
   src: url('/fonts/Avenir/Avenir-Regular.ttf') format('truetype');
