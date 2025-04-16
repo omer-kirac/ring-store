@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ring-store-backend
+    env: docker
+    rootDir: backend
+    buildCommand: ./mvnw clean package -DskipTests
+    envVars:
+      - key: goldapi.key
+        sync: false  # Bu değer Render panelinde manuel olarak girilecek 
