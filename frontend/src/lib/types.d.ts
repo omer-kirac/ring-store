@@ -1,4 +1,3 @@
-// React ve React DOM tiplerine erişim için deklarasyonlar
 declare namespace React {
   interface ReactNode {}
   type FC<P = {}> = React.FunctionComponent<P>;
