@@ -1,6 +1,5 @@
 # Ring Store Uygulaması
 
-Bu proje, yüzük satışı için geliştirilmiş full-stack bir e-ticaret uygulamasıdır.
 
 ## Teknolojiler
 
