@@ -58,14 +58,10 @@ export async function fetchProducts(
   }
 }
 
-export function calculateRating(popularity: number): number {
-  // We now use normalizedPopularityScore from backend which is already on a 1-5 scale
-  // If it's not available, fall back to the old calculation method
+export function calculateRating(popularity: number): number { 
   if (popularity >= 1 && popularity <= 5) {
     return popularity;
   } else {
-    // Old calculation method (legacy support)
-    // Convert popularity score to a rating out of 5 (with 1 decimal place)
     const rating = (popularity / 100) * 5;
     return parseFloat(rating.toFixed(1));
   }
