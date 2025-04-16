@@ -14,14 +14,12 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("*") // Geliştirme aşamasında tüm originlere izin ver
+                        .allowedOrigins("*") 
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
-                        .allowCredentials(false); // allowedOrigins="*" ile true kullanılamaz
+                        .allowCredentials(false); 
                 
-                // Not: Production'da güvenlik için bu ayarları değiştirin:
-                // .allowedOrigins("https://your-vercel-app.vercel.app")
-                // .allowCredentials(true)
+              
             }
         };
     }
