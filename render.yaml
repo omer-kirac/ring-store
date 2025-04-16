@@ -3,7 +3,7 @@ services:
     name: ring-store-backend
     env: docker
     rootDir: backend
-    # buildCommand artık gerekli değil çünkü Dockerfile içinde build yapıyoruz
+  
     envVars:
       - key: goldapi.key
-        sync: false  # Bu değer Render panelinde manuel olarak girilecek 
+        sync: false  
